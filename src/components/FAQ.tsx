@@ -126,7 +126,7 @@ const FAQ = () => {
               {" "}
               gdsc.community.dev
             </Link>{" "}
-            page and join our chapter with your email, after that, you'll
+            page and join our chapter with your email, after that, you will
             receive an email whenever we announce an event. If that is too much
             hassle for you then just follow us on our social media handles, we
             announce and promote our events there as well.

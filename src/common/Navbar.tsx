@@ -98,7 +98,9 @@ const Navbar = () => {
               color: "white",
             }}
           >
-            Contact Us
+            <Link href="#contact-us-section">
+              Contact Us
+            </Link>
           </Button>
         </Stack>
       </Flex>
@@ -202,6 +204,7 @@ const MobileNav = () => {
     <Stack
       bg={useColorModeValue("white", "gray.800")}
       p={4}
+      pl={8}
       display={{ lg: "none" }}
     >
       {NAV_ITEMS.map((navItem) => (

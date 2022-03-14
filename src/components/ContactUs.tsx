@@ -4,7 +4,7 @@ import SocialMediaBar from "../common/SocialMediaBar";
 
 const ContactUs = () => {
   return (
-    <Box px={{ base: "8", lg: "36" }} pt={{ base: "10", lg: "14" }}>
+    <Box px={{ base: "8", lg: "36" }} pt={{ base: "10", lg: "14" }} id="contact-us-section">
       <Text fontSize={{ base: "2xl", lg: "4xl" }} fontWeight={700}>
         Contact Us
       </Text>

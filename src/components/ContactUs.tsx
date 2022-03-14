@@ -69,7 +69,7 @@ const ContactUs = () => {
           <Link
             fontSize={{ base: "lg", lg: "xl" }}
             color={"gray.500"}
-            href="https://gdsc.community.dev/kalinga-institute-of-industrial-technology-bhubaneswar-1/#team-list"
+            href="https://forum.dsckiit.in/d/16-gdsc-kiit-2022-team-directory"
             isExternal
             px={{ base: "0", lg: "4" }}
             py={{ base: "3", lg: "4" }}

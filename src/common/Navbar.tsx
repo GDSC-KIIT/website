@@ -277,7 +277,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Team",
-    href: "https://gdsc.community.dev/kalinga-institute-of-industrial-technology-bhubaneswar-1/#team-list",
+    href: "https://forum.dsckiit.in/d/16-gdsc-kiit-2022-team-directory",
   },
   {
     label: "Blog",

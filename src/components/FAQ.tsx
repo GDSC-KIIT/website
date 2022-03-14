@@ -13,7 +13,7 @@ import {
 
 const FAQ = () => {
   return (
-    <Box px={{ base: "8", lg: "36" }} pt={{ base: "10", lg: "10" }}>
+    <Box px={{ base: "8", lg: "96" }} pt={{ base: "10", lg: "10" }}>
       <Text
         fontSize={{ base: "2xl", lg: "4xl" }}
         fontWeight={700}

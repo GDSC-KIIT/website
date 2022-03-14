@@ -31,9 +31,9 @@ const Navbar = () => {
       <Flex
         bg={useColorModeValue("white", "gray.800")}
         color={useColorModeValue("gray.600", "white")}
-        minH={"60px"}
         py={{ base: 2 }}
-        px={{ base: 4 }}
+        pr={{ base: 4 }}
+        pl={{ base: 8 }}
         align={"center"}
       >
         <Flex
@@ -52,8 +52,9 @@ const Navbar = () => {
         </Flex>
         <Flex
           flex={{ base: 1 }}
-          justify={{ base: "center", lg: "start" }}
+          direction={{ base: "row-reverse", lg: "row" }}
           alignItems="center"
+          maxWidth={"100%"}
         >
           <Image
             src="/dsc_logo.png"
@@ -65,6 +66,8 @@ const Navbar = () => {
             textAlign={useBreakpointValue({ base: "center", lg: "left" })}
             fontWeight={700}
             fontSize="2xl"
+            mr={{ base: "4", lg: "none" }}
+            display={{ base: "none", lg: "block" }}
           >
             GDSC KIIT
           </Text>
@@ -79,6 +82,7 @@ const Navbar = () => {
           justify={"flex-end"}
           direction={"row"}
           spacing={6}
+          display={{ base: "none", lg: "block" }}
         >
           <Button
             display={{ base: "none", lg: "inline-flex" }}

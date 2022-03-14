@@ -8,6 +8,7 @@ import Footer from '../src/common/Footer'
 import Landing from '../src/components/Landing'
 import GetInvolved from '../src/components/GetInvolved'
 import ContactUs from '../src/components/ContactUs'
+import FAQ from '../src/components/FAQ'
 
 const Home: NextPage = () => {
   return (
@@ -21,8 +22,8 @@ const Home: NextPage = () => {
       <Navbar></Navbar>
       <Landing></Landing>
       <GetInvolved></GetInvolved>
+      <FAQ></FAQ>
       <ContactUs></ContactUs>
-      {/* <SocialMediaBar></SocialMediaBar> */}
       <Footer></Footer>
     </div>
   )

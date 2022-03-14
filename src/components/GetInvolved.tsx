@@ -4,26 +4,27 @@ import { Text, Flex, Image, Box, Link } from "@chakra-ui/react";
 const GetInvolved = () => {
   return (
     <Flex
-      direction={{ base: "column", lg: "row" }}
-      px={{ base: "0", lg: "36" }}
-      py={{ base: "0", lg: "20" }}
+      direction={{ base: "column-reverse", lg: "row" }}
+      px={{ base: "8", lg: "36" }}
+      pt={{ base: "10", lg: "20" }}
       justifyContent="space-around"
       alignItems="center"
     >
       <Image
-        width={"45%"}
+        width={{base: "90%", lg: "45%"}}
         src="/get_involved.svg"
         objectFit="fill"
         alt="Landing Illustration"
-        mr="32"
+        mr={{base: "0", lg: "32"}}
+        mt={{base: "10", lg: "0"}}
       ></Image>
 
       <Box>
-        <Text fontSize="4xl" fontWeight={700}>
+        <Text fontSize={{ base: "2xl", lg: "4xl" }} fontWeight={700}>
           Get Involved
         </Text>
 
-        <Text fontSize="2xl" pr="24" mt="10">
+        <Text fontSize={{base: "xl", lg: "2xl"}} pr={{ base: "0", lg: "24" }} mt={{base: "4", lg: "10"}}>
           You can get stared by either signing up for our{" "}
           <Link color="blue" href="https://forum.dsckiit.in/">
             {" "}
@@ -37,7 +38,7 @@ const GetInvolved = () => {
           .
         </Text>
 
-        <Text fontSize="2xl" pr="24" mt="10">
+        <Text fontSize={{base: "xl", lg: "2xl"}} pr={{ base: "0", lg: "24" }}  mt={{base: "4", lg: "10"}}>
           We conduct in-person meetups twice a month. You can visit this{" "}
           <Link color="blue" href="https://gdsc.community.dev/kalinga-institute-of-industrial-technology-bhubaneswar-1/#upcoming-events">
             {" "}

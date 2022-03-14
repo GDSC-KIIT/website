@@ -52,7 +52,7 @@ const FAQ = () => {
             <br></br>
             <br></br>
             GDSC KIIT is the official Google Developer Students Club chapter of
-            Kalinga Institute of Industrial Tecnology.
+            Kalinga Institute of Industrial Technology.
           </AccordionPanel>
         </AccordionItem>
 

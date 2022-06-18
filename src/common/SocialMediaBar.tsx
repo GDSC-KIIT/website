@@ -16,7 +16,7 @@ const SocialMediaBar = () => {
           src="https://img.icons8.com/ios/50/000000/twitter--v1.png"
         ></Image>
       </Link>
-      <Link href="https://github.com/DSC-KIIT">
+      <Link href="https://github.com/GDSC-KIIT">
         <Image
           alt="github"
           src="https://img.icons8.com/ios/50/000000/github--v1.png"
@@ -32,6 +32,12 @@ const SocialMediaBar = () => {
         <Image
           alt="medium"
           src="https://img.icons8.com/ios/50/000000/medium-monogram--v1.png"
+        ></Image>
+      </Link>
+      <Link href="https://www.youtube.com/c/DSCKIIT">
+        <Image
+          alt="youtube"
+          src="https://img.icons8.com/ios/50/undefined/youtube-play--v1.png"
         ></Image>
       </Link>
     </HStack>

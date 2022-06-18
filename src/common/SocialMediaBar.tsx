@@ -3,7 +3,7 @@ import { HStack, Image, Link } from "@chakra-ui/react";
 
 const SocialMediaBar = () => {
   return (
-    <HStack width={{ base: "48", lg: "60" }} spacing="4">
+    <HStack width={{ base: "60", lg: "72" }} spacing="4">
       <Link href="https://discord.com/invite/nYQCMKF">
         <Image
           alt="discord"

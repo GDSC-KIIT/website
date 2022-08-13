@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <title>GDSC KIIT</title>
         <meta
           name="description"
-          content="Google Developer Students Club KIIT"
+          content="Huddle by GDSC KIIT is a bi-monthly community event where we host technical talks submitted by the student developers of KIIT."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

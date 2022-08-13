@@ -56,12 +56,15 @@ const Navbar = () => {
           alignItems="center"
           maxWidth={"100%"}
         >
-          <Image
-            src="/dsc_logo.png"
-            height="10"
-            mr="4"
-            alt="GDSC KIIT Logo"
-          ></Image>
+          <Link href="/">
+            <Image
+              src="/dsc_logo.png"
+              height="10"
+              mr="4"
+              alt="GDSC KIIT Logo"
+            ></Image>
+          </Link>
+          
           <Text
             textAlign={useBreakpointValue({ base: "center", lg: "left" })}
             fontWeight={700}
@@ -98,9 +101,7 @@ const Navbar = () => {
               color: "white",
             }}
           >
-            <Link href="#contact-us-section">
-              Contact Us
-            </Link>
+            <Link href="#contact-us-section">Contact Us</Link>
           </Button>
         </Stack>
       </Flex>
@@ -129,7 +130,7 @@ const DesktopNav = () => {
                 fontSize={"xl"}
                 fontWeight={500}
                 color={linkColor}
-                target="_blank"
+                target={navItem.target || "_blank"}
                 _hover={{
                   textDecoration: "none",
                   color: linkHoverColor,
@@ -269,6 +270,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
 
 interface NavItem {
   label: string;
+  target?: string;
   subLabel?: string;
   children?: Array<NavItem>;
   href?: string;
@@ -286,6 +288,11 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Events",
     href: "https://gdsc.community.dev/kalinga-institute-of-industrial-technology-bhubaneswar-1/#upcoming-events",
+  },
+  {
+    label: "Huddle",
+    href: "/huddle",
+    target: "_self",
   },
 ];
 

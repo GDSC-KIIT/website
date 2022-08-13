@@ -15,18 +15,31 @@ const Landing = () => {
           Design. Develop. Deliver
         </Text>
 
-        <Text fontSize={{base: "xl", lg: "2xl"}} pr={{ base: "0", lg: "24" }} mt="10">
-          GDSC KIIT is a tech club focused on building a community of student
-          developers interested to solve real-world problems.
+        <Text
+          fontSize={{ base: "xl", lg: "2xl" }}
+          pr={{ base: "0", lg: "24" }}
+          mt="10"
+        >
+          Google Developer Student Clubs KIIT is a technical club focused on
+          building a community of student developers interested in solving
+          real-world problems.
         </Text>
 
-        <Text fontSize={{base: "xl", lg: "2xl"}} pr={{ base: "0", lg: "24" }} mt="10">
-          The main domains of the club are Android, Cloud, ML/AI and Web. We
-          host events such as Hackathons, Android Study Jams, 30 days of Google
-          Cloud and create informative content for diverse learning groups.
+        <Text
+          fontSize={{ base: "xl", lg: "2xl" }}
+          pr={{ base: "0", lg: "24" }}
+          mt="10"
+        >
+          We host various workshops and hackathons. We also host
+          flagship events from Google such as Android Study Jams, 30 days of
+          Google Cloud, ExploreML etc.
         </Text>
 
-        <Text fontSize={{base: "xl", lg: "2xl"}} pr={{ base: "0", lg: "24" }} mt="10">
+        <Text
+          fontSize={{ base: "xl", lg: "2xl" }}
+          pr={{ base: "0", lg: "24" }}
+          mt="10"
+        >
           Our goal is to build an inclusive community of students who want to
           learn about tech and grow together.
         </Text>

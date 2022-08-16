@@ -27,9 +27,11 @@ const Home: NextPage = () => {
       <iframe
         class="airtable-embed airtable-dynamic-height"
         src="https://airtable.com/embed/shrj3RJG3ytCQfDzr?backgroundColor=red"
+        frameborder="0"
+        onmousewheel=""
         width="100%"
-        height="1774"
-        style={{ background: "transparent", border: "1px solid #ccc" }}
+        height="2171"
+        style="background: transparent; border: 1px solid #ccc;"
       ></iframe>
 
       <ContactUs></ContactUs>

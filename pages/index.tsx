@@ -15,8 +15,10 @@ const Home: NextPage = () => {
         <title>GDSC KIIT</title>
         <meta
           name="description"
-          content="Google Developer Students Club KIIT"
-        />
+          content="Google Developer Students Club KIIT"/>
+        <meta name="keywords" content="KIIT, GDSC KIIT, Learn and Grow, Developers, Coding Club" />
+        <meta name="author" content="GDSC KIIT"/>
+        <meta name="viewport" content="width=width-device,initial-scale=1.0"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

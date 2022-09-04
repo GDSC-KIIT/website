@@ -23,6 +23,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Script
+        id="chat-bot-script"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `(function(w, d) { w.CollectId = "631465d7f9bc0c46b6db599b"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);`,

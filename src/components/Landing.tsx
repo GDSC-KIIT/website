@@ -1,7 +1,6 @@
 import React from "react";
 import { Text, Flex, Image, Box } from "@chakra-ui/react";
 import SocialMediaBar from "../common/SocialMediaBar";
-
 const Landing = () => {
   return (
     <Flex
@@ -59,5 +58,4 @@ const Landing = () => {
     </Flex>
   );
 };
-
 export default Landing;

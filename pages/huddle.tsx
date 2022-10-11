@@ -1,10 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Script from "next/script";
-
 import Navbar from "../src/common/Navbar";
 import Footer from "../src/common/Footer";
-
 import ContactUs from "../src/components/ContactUs";
 
 const Home: NextPage = () => {
@@ -18,7 +16,6 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Navbar></Navbar>
 
       <br></br>

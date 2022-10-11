@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-
 import Navbar from "../src/common/Navbar";
 import Footer from "../src/common/Footer";
 import Landing from "../src/components/Landing";
@@ -21,7 +20,6 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=width-device,initial-scale=1.0"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Navbar></Navbar>
       <Landing></Landing>
       <GetInvolved></GetInvolved>

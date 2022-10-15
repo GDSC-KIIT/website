@@ -22,7 +22,6 @@ const Home: NextPage = () => {
       <Navbar></Navbar>
 
       <br></br>
-      <br></br>
       <Script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></Script>
       <iframe
         className="airtable-embed airtable-dynamic-height"

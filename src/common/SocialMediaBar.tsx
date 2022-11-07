@@ -34,7 +34,7 @@ const SocialMediaBar = () => {
           src="https://img.icons8.com/ios/50/000000/medium-monogram--v1.png"
         ></Image>
       </Link>
-      <Link href="https://www.youtube.com/c/DSCKIIT">
+      <Link href="https://youtube.com/@gdsckiit">
         <Image
           alt="youtube"
           src="https://img.icons8.com/ios/50/undefined/youtube-play--v1.png"

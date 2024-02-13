@@ -5,7 +5,8 @@ import SocialMediaBar from "../common/SocialMediaBar";
 const ContactUs = () => {
   return (
     <Box px={{ base: "8", lg: "36" }} pt={{ base: "10", lg: "14" }} id="contact-us-section">
-      <Text fontSize={{ base: "2xl", lg: "4xl" }} fontWeight={700}>
+      <Text fontSize={{ base: "2xl", lg: "4xl" }} fontWeight={700} 
+        _hover={{ textDecoration: "none" }}>
         Contact Us
       </Text>
 
@@ -37,6 +38,8 @@ const ContactUs = () => {
 
         <Flex alignItems={"left"} direction={{ base: "column", lg: "row" }}>
           <Link
+            _hover={{ textDecoration: "none" }}
+            textDecoration="none"
             fontSize={{ base: "lg", lg: "xl" }}
             color={"gray.500"}
             href="https://medium.com/dsckiit"
@@ -47,6 +50,8 @@ const ContactUs = () => {
             Blog
           </Link>
           <Link
+            _hover={{ textDecoration: "none" }}
+            textDecoration="none"
             fontSize={{ base: "lg", lg: "xl" }}
             color={"gray.500"}
             href="https://forum.dsckiit.in"
@@ -57,6 +62,8 @@ const ContactUs = () => {
             Forum
           </Link>
           <Link
+            _hover={{ textDecoration: "none" }}
+            textDecoration="none"
             fontSize={{ base: "lg", lg: "xl" }}
             color={"gray.500"}
             href="https://gdsc.community.dev/kalinga-institute-of-industrial-technology-bhubaneswar-1/#upcoming-events"
@@ -67,6 +74,8 @@ const ContactUs = () => {
             Events
           </Link>
           <Link
+            _hover={{ textDecoration: "none" }}
+            textDecoration="none"
             fontSize={{ base: "lg", lg: "xl" }}
             color={"gray.500"}
             href="https://forum.dsckiit.in/d/16-gdsc-kiit-2022-team-directory"

@@ -64,16 +64,20 @@ const Navbar = () => {
               alt="GDSC KIIT Logo"
             ></Image>
           </Link>
+          <Link href="/" _hover={{ textDecoration: "none" }} 
+            textDecoration="none">
+            <Text
+              textAlign={useBreakpointValue({ base: "center", lg: "left" })}
+              fontWeight={700}
+              fontSize="2xl"
+              mr={{ base: "4", lg: "none" }}
+              display={{ base: "none", lg: "block" }}
+              _hover={{ cursor: "pointer" }}
+            >
+              GDSC KIIT
+            </Text>
+          </Link>
           
-          <Text
-            textAlign={useBreakpointValue({ base: "center", lg: "left" })}
-            fontWeight={700}
-            fontSize="2xl"
-            mr={{ base: "4", lg: "none" }}
-            display={{ base: "none", lg: "block" }}
-          >
-            GDSC KIIT
-          </Text>
 
           <Flex display={{ base: "none", lg: "flex" }} ml={10}>
             <DesktopNav />
